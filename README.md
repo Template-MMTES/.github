@@ -1,87 +1,60 @@
-# Nome do Projeto
+# Projeto de Software - Orientação a Objetos com Java
 
-## Descrição
+## Descrição Geral
 
-Este projeto visa desenvolver um sistema de <descrever> utilizando a metodologia ágil e práticas de DevOps integradas ao GitHub. A arquitetura do software seguirá o padrão Model-View-Controller (MVC) e incorporará o(s) padrõe(s) de projeto  <descrever> para garantir uma base de código robusta e escalável. O desenvolvimento será feito na linguagem Java.
+Este projeto consiste no desenvolvimento de um software utilizando **Java** e os princípios de **Programação Orientada a Objetos (POO)**. O projeto deve implementar um **padrão de projeto** à escolha do grupo e ser gerenciado usando o **GitHub Projects**. 
 
-## Índice
+### Requisitos gerais:
+- Linguagem de programação: **Java**
+- Paradigma de programação: **Orientação a Objetos**
+- Gerenciamento de projeto: **GitHub Projects**
+- Implementação de um **padrão de projeto** (ex.: Singleton, Factory, Observer, etc.)
 
-1. [Objetivos do Projeto](#objetivo)
-2. [Definições, Acrônimos e Abreviações](#definição)
-3. [Requisitos](#requisitos)
-   1. [Requisitos Funcionais](#rf)
-   2. [Requisitos Não Funcionais](#rnf)
-4. [Diagramas UML](#uml)
-   1. [Diagrama de Casos de Uso](#uc)
-   2. [Diagrama de Classe](#classe)
-5. [Estrutura do Projeto](#estrutura)
-6. [Contribuição](#contribuição)
-7. [Licença](#licença)
-8. [Contato](#contato)
+## Requisitos Funcionais
 
-## Definições, Acrônimos e Abreviações.
-< Comentário: listar siglas, termos e abreviações que estão envolvidas com o
-sistema e que são utilizadas pelos usuários para indicar áreas internas, documentos,
-processos, etc e são relevantes para o projeto. Listar em ordem alfabética.>
-Exemplos:
-▪ DAC – departamento de adminitracao e controle
-▪ Controle de caixa – é o processo onde ....
-▪ SCRUM - Metodologia ágil utilizada no desenvolvimento de projetos
+O sistema deve atender a uma funcionalidade prática de escolha livre. No entanto, o projeto deve incluir as seguintes funcionalidades mínimas:
 
-## Requisitos
-< Comentário: Aqui serão descritos os requisitos funcionais e não funcionais do
-sistema a ser implementado. Os requisitos, em geral, refletem funções que o usuário
-precisa realizar para atingir o objetivo do sistema ou funções de apoio à estratégia
-do negócio. Registros, controle de fluxo, consultas e cadastros são requisitos típicos.
-Em geral, requisito é algo que o usuário solicita explicitamente (ou requisita)
+1. **Cadastro de Entidades:** O sistema deve permitir o cadastro de pelo menos duas entidades principais (ex.: Usuários e Produtos, Alunos e Professores, Livros e Autores).
+2. **Manipulação de Dados:** Implementar operações CRUD (criação, leitura, atualização e remoção) para as entidades cadastradas.
+3. **Interface de Interação:** O sistema deve possuir uma interface (gráfica ou de console) que permita a interação do usuário com as funcionalidades do sistema.
+4. **Relatórios:** O sistema deve ser capaz de gerar pelo menos um relatório (ex.: lista de usuários cadastrados, histórico de transações, etc.).
 
-   ### Requisitos Funcionais
-   perceptível do sistema pelos usuários. Telas, informações, relatórios, fluxo de
-negócio são requisitos funcionais.>
-Exemplos:
-ID    Descrição
-RF 01 O sistema deverá solicitar ao usuário seu login e senha e verificar se o mesmo possui
-permissão de acesso ao sistema
+## Requisitos Não Funcionais
 
-   ### Requisitos Não Funcionais
-   <Comentário: Requisito Não Funcional é aquele que define os parâmetros de
-funcionamento do sistema, que trarão ao usuário uma melhor experiência no uso do
-sistema, porém não são diretamente acionados por ele. Nesta categoria estão os
-requisitos de arquitetura, desempenho, usabilidade, tempo de resposta, padrão de
-nomenclatura, entre outros. Em geral, os usuários finais do sistema tem uma boa
-noção dos requisitos não funcionais desejados, porém, pela própria subjetividade
-deles, o usuário não os explicita diretamente. Ou, nos melhores casos, o usuário fala
-coisas como: “que o sistema seja rápido”, “fácil de usar”, “atalhos”, “esteja sempre
-disponível”, “não dependa de ninguém para usar”.
-1. Segurança:<Descreve os requisitos associados à integridade dos dados, privacidade,
-como o sistema trata de informação confidencial, liberação de acesso aos usuários do
-sistema.>.
+1. **Padrão de Projeto:** O projeto deve implementar pelo menos um padrão de projeto (ex.: Singleton, Factory, etc.), que será descrito e justificado na documentação.
+2. **Modularidade:** O sistema deve ser modular, respeitando os princípios da POO (herança, polimorfismo, encapsulamento).
+3. **Controle de Versão:** O código deve ser versionado usando GitHub, e o grupo deve manter o histórico de commits de forma clara e organizada.
+4. **Documentação:** O projeto deve conter documentação explicando os objetivos do sistema, requisitos, a arquitetura do sistema, as classes principais e o padrão de projeto utilizado. 
 
-## Diagramas UML
-   <Comentario
-   
-   ### Diagrama de Casos de Uso
-    <Comentario 
-    ID Caso de Uso               Descrição do Objetivo do Caso de Uso
-    UC1 Consultar Pedido de Sala Permite consultar os pedidos de sala solicitados.
-   
-   ### Diagrama de Classe
+## Padrões de Avaliação
 
-## Estrutura do Projeto 
-<Comentario: faça a adaptação necessária para o seu projeto
-- `src/`: Código-fonte do projeto.
-- `docs/`: Documentação adicional.
+### Aspectos Técnicos
+- **Qualidade do código:** Clareza, organização e legibilidade.
+- **Implementação correta da POO.**
+- **Aplicação correta do padrão de projeto.**
+- **Uso efetivo do GitHub Projects para gerenciar o progresso do projeto.**
 
-## Tecnologias Utilizadas
-- [Linguagem de Programação]
-- [Framework/Biblioteca]
-- [Outras Tecnologias]
+### Funcionalidade
+- **Atendimento aos requisitos funcionais.**
+- **Execução correta das funcionalidades implementadas.**
 
-## Instruções de Instalação
-1. Clone o repositório:
-   ```sh
-   git clone https://github.com/sua-organizacao/nome-do-repositorio.git
-## Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo <LICENSE> para mais detalhes.
-## Contato
-<Comentario: adicione foto, nome e email dos integrantes do grupo>
+### Documentação
+- **Descrição clara e completa.**
+- **Justificativa do padrão de projeto escolhido.**
+- **Descrição das funcionalidades implementadas.**
+
+## Entregáveis
+
+1. **Código Fonte:** Repositório do GitHub contendo o código do sistema.
+2. **Documentação:** README.md contendo a descrição do projeto, instruções de execução e a explicação do padrão de projeto escolhido. Template Básico: https://github.com/Template-MMTES/documentation/blob/main/README.md
+3. **Gerenciamento de Tarefas:** Utilização do GitHub Projects para acompanhamento das atividades.
+
+## Datas Importantes
+
+- **Data de Formação dos Grupos:** [A definir]
+- **Data de Entrega do Projeto Final:** [A definir]
+- **Apresentação do Projeto:** [A definir]
+
+## Considerações Finais
+
+Os grupos devem ser compostos por até 5 pessoas. A comunicação e o progresso do trabalho devem ser acompanhados por ferramentas como o **GitHub Projects** e reuniões periódicas.
