@@ -61,7 +61,7 @@ O sistema deve atender a uma funcionalidade prática de escolha livre. No entant
 
 ## Entregáveis
 
-1. **Organização no GitHub:** Criação da organização com a inclusão dos integrantes do grupo e da professora.
+1. **Organização no GitHub:** Criação da organização com a inclusão dos integrantes do grupo e da professora. Exemplo: https://github.com/Template-MMTES
 2. **Código Fonte:** Repositório no GitHub contendo o código do sistema.
 3. **Documentação:** Repositório separado contendo o README.md e toda a documentação do projeto, incluindo a descrição do projeto, instruções de execução e a explicação do padrão de projeto escolhido. Template Básico: https://github.com/Template-MMTES/documentation/blob/main/README.md 
 4. **Gerenciamento de Tarefas:** Utilização do GitHub Projects para o acompanhamento das atividades.
