@@ -1,5 +1,4 @@
-# Projeto de Software 
-Orientação a Objetos com Java
+# Projeto de Software - Orientação a Objetos com Java
 
 ## Descrição Geral
 
